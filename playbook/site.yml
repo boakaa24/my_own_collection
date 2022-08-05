@@ -1,0 +1,9 @@
+---
+- name: my_own_module
+  hosts: localhost
+  tasks:
+  - name: Write a file
+    my_own_module:
+      path: "/root/git_rep/my_own_collection/playbook/test.txt"
+      content: "Test content"
+ 

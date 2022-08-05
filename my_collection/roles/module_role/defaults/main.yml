@@ -1,0 +1,4 @@
+---
+# defaults file for module_role
+  my_path: "/root/git_rep/my_own_collection/playbook/test.txt"
+  my_content: "Test content"
